@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.suggest-container{
+    display: block;
+}
+.video-creater{
+    display : block;
+}
+.image-thumbnail{
+    display : inline-block;
+    vertical-align: top;
+}
+.thumbnail{
+    width : 190px;
+    height : 100px;
+    object-fit: cover;
+}
+.video-title{
+    width: 300px;
+    display : inline-block;
+    margin-left : 10px;
+
+}
+.video-creater-topic{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top : 5px;
+    margin-bottom : 0px;
+
+}
+.username{
+    font-size: 12px;
+    color : gray;
+    margin-top: 6px;
+    margin-bottom : 5px;
+}
+.viewdate{
+    font-size: 12px;
+    color : gray;
+    margin-top: 0px;
+    margin-bottom : 0px;
+}
