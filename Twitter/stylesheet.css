@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.users-container{
+    width: 340px;
+    height: 90px;
+    margin-left : 10px;
+    display: block;
+}
+.users-image{
+    display : inline-block;
+}
+.users-title{
+    display : inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    width: 180px;
+}
+.users-profile{
+    width : 55px;
+    height : 55px;
+    object-fit: cover;
+    border-radius: 50px;
+    
+}
+.user-name{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom : 0px;
+}
+.user-bio{
+    color : gray;
+    font-size: 17px;
+    margin-top: 2px;
+    margin-bottom : 0px;
+}
+.user-trend{
+    color : gray;
+    font-size: 17px;
+    margin-top: 2px;
+    margin-bottom : 0px;
+}
+.button-container{
+    display : inline-block;
+    vertical-align: top;
+
+}
+.button-user-follow{
+    font-size: 18px;
+    padding: 7px 15px;
+    border: 0px;
+    border-color :wheat;
+    border-radius: 8px;
+    color : white;
+    background-color: rgb(0, 157, 255);
+    margin-top:15px;
+}
