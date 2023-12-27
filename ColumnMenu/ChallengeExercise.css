@@ -20,6 +20,7 @@ body{
     align-items: center;
     padding-left: 10px;
     padding-right : 6px;
+    margin-top : 5px;
     margin-bottom: 10px;
 }
 .container-home,.container-message,.container-notification:hover{
