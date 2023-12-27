@@ -41,3 +41,11 @@ body{
     border-style : solid;
     border-radius: 10px;
 }
+.container-notification{
+    display : flex;
+    justify-content: space-between;
+}
+.container-message{
+    display : flex;
+    justify-content: space-between;
+}
