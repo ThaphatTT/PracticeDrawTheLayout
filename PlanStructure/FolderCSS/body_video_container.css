@@ -1,11 +1,46 @@
 .container-contant{
+    display : inline-block;
+    vertical-align: top;
     width: 340px;
-    height: 330px;
-    background-color: lightblue;
+    height: 350px;
+    margin-left: 10px;
+
+}
+.container-thumbnail{
+    display : inline-block;
 }
 .thumbnail-img{
     margin-top : 0px;
     border-radius: 10px;
     width: 340px;
     object-fit: contain;
+}
+.container-bottom-contant{
+    display: flex;
+    width : 340px;
+    height : 150px;
+
+}
+.container-bottom-left-contant{
+    width: 50px;
+}
+.container-bottom-right-contant{
+    width: 300px;
+    margin-left: 10px;
+}
+.title-video{
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.creator-name{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+.video-view{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
