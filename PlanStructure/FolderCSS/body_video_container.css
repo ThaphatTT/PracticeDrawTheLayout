@@ -1,0 +1,11 @@
+.container-contant{
+    width: 340px;
+    height: 330px;
+    background-color: lightblue;
+}
+.thumbnail-img{
+    margin-top : 0px;
+    border-radius: 10px;
+    width: 340px;
+    object-fit: contain;
+}

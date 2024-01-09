@@ -15,26 +15,3 @@ body{
     width: 100%;
     background-color: pink;
 }
-.left-section-page{
-    background-color: red;
-    position : fixed;
-    top : 50px;
-    left : 0;
-    bottom : 0;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 100px 100px 100px;
-    grid-row : 100px 100px;
-    width: 200px;
-}
-.container-contant{
-    width: 340px;
-    height: 330px;
-    background-color: lightblue;
-}
-.thumbnail-img{
-    margin-top : 0px;
-    border-radius: 10px;
-    width: 340px;
-    object-fit: contain;
-}

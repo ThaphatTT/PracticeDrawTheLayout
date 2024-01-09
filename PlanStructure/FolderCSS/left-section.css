@@ -1,0 +1,12 @@
+.left-section-page{
+    background-color: red;
+    position : fixed;
+    top : 50px;
+    left : 0;
+    bottom : 0;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 100px 100px;
+    grid-row : 100px 100px;
+    width: 200px;
+}
