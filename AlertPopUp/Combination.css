@@ -15,8 +15,14 @@
 }
 .popup-container{
     position: fixed;
+    top: 50%;
+    left: 50%;
+    right : 50%;
+    bottom : 50%;
     z-index: 100;
     width : 500px;
-    height: 500px;
+    height: 200px;
+    margin-left: -250px;
+    margin-top: -100px;
     background-color: white;
 }
