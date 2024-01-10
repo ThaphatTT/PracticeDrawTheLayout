@@ -28,3 +28,20 @@ body{
     right : 0;
     top : 12px;
 }
+.blur-button{
+    position: absolute;
+    bottom: 0;
+    width: 320px;
+    height : 100px;
+    background-color: gray;
+    opacity: 0.5;
+}
+.button{
+    position: absolute;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right : 10px;
+    padding-top : 5px;
+    padding-bottom: 5px;
+    bottom: 50px;
+}
