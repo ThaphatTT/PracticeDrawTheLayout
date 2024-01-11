@@ -39,18 +39,37 @@ body{
 .username-creater-tools-container{
     display: flex;
     position: absolute;
-    width: 300px;
+    width: 350px;
     height: 150px;
-    background-color: lightblue;
-    opacity: 0.5;
+    border-radius: 10px;
+    background-color: rgb(245, 241, 241);
+    pointer-events: none;
+    opacity: 0;
+}
+.username-creater:hover .username-creater-tools-container{
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 .username-creater-tools-container .left-section{
+    display: flex;
+    align-items: center;
     width: 30%;
-    background-color: lightcoral;
+}
+.left-section .img-creater{
+    width: 100%;
+    object-fit: cover;
 }
 .username-creater-tools-container .right-section{
-    width: 70%;
-    background-color: red;
+    width: 80%;
+    margin-left : 10px;
+}
+.right-section h1{
+    font-size: 20px;
+    pointer-events: none;
+}
+.right-section .mention-creator{
+    font-size: 14px;
+    pointer-events: none;
 }
 .viewdate{
     font-size: 12px;
